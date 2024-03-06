@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Senital&display=swap');
+body {
+    font-family: monospace;
+    font-size: x-large;
+    margin: 0;
+    padding: 0;
+    background-color: #000000; 
+}
+
+header {
+    background-color:#1cdbec; 
+    color: #fff;
+    text-align: center;
+    padding:  0; 
+}
+
+h1 {
+    margin: 0;
+    padding: 0;
+    font-size: 28px; 
+    color: #023120d7; 
+}
+
+nav {
+    background-color: #03e77d; 
+    padding: 5px 0;
+    text-align: center;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+li {
+    display: inline-block; 
+    margin: 0 10px; 
+}
+
+a {
+    color: #0b0b0b; 
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 20px;
+    transition: background-color 0.3s;
+    font-weight: bold;
+    font-family: 'Senital', Arial, sans-serif;
+}
+
+a:hover {
+    background-color: #f5f5a184; 
+    color: #e4d9c6b9; 
+}
+
+.imgPrincipal img {
+    display: block;
+    margin: 0 auto;
+    width: 45%;
+    border-radius: 30%;
+    margin-top: 20px;
+}
+
+#crearUsuarioForm {
+    background-color: #75a7f2e4;
+    padding: 5px;
+    border-radius: 5px;
+    margin: 10px 0;
+}
+
+#eliminarUsuarioForm{
+    background-color: #6f0202a4;
+    padding: 20px;
+    border-radius: 20px;
+    margin: 20px 0;
+}
+
+#jugarForm{
+    background-color: #b7ff9de6;
+    padding: 20px;
+    border-radius: 20px;
+    margin: 20px 0;
+}
+
+#adminLoginForm{
+    background-color: #f2e2a2;
+    padding: 20px;
+    border-radius: 20px;
+    margin: 20px 0;
+}
+
+
