@@ -1,0 +1,90 @@
+/* Estilos generales */
+
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: rgb(136, 13, 224);
+}
+
+/* Estilos para el contenedor */
+
+.container {
+    background-color: #e7ebed;
+    border: 1px solid #fffdfd;
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+/* Estilos para la pregunta */
+
+.question {
+    margin-top: 0;
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+
+/* Estilos para las opciones */
+
+.options {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.option {
+    margin-bottom: 10px;
+    padding: 5px;
+    border: 1px solid #4d4a4a;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.option:hover {
+    background-color: #15a0a4;
+}
+
+/* Estilos para las respuestas */
+
+.respuesta {
+    margin-top: 10px;
+    font-size: 16px;
+}
+
+/* Estilos para el botón "Continuar" */
+
+.submit-button {
+    margin-top: 10px;
+    padding: 5px 10px;
+    font-size: 16px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.submit-button:hover {
+    background-color: #fafafa;
+}
+
+/* Estilos específicos para la imagen */
+
+.imagen-pregunta {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+    height: auto;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+/* Estilos para las respuestas (3 opciones) */
+
+.respuesta-1, .respuesta-2, .respuesta-3 {
+    display: none;
+}
+
+.respuesta-1.activo, .respuesta-2.activo, .respuesta-3.activo {
+    display: block;
+}
